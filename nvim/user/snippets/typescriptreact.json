@@ -1,0 +1,19 @@
+{
+  "setup": {
+    "prefix": [
+      "_rafce"
+    ],
+    "body": [
+      "const ${TM_FILENAME_BASE} = () => {",
+      "  return (",
+      "    <div>",
+      "      <p>$0</p>",
+      "    </div>",
+      "  );",
+      "};",
+      "",
+      "export default ${TM_FILENAME_BASE};"
+    ],
+    "description": "My standard setup React component"
+  }
+}
