@@ -2,7 +2,7 @@
 
 export ZSH="$HOME/.oh-my-zsh"
 
-ZSH_THEME="hyper-oh-my-zsh"
+ZSH_THEME="kosori"
 
 plugins=(
   # fig
