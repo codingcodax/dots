@@ -104,3 +104,5 @@ alias runp="lsof -i ";
 
 # Spicetify
 # Spicetify end
+
+# Fig end
