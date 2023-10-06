@@ -19,8 +19,13 @@ plugins=(
 source $ZSH/oh-my-zsh.sh
 
 # ls aliases
-alias ls="exa --icons";
-alias ll="exa -1 -a --icons";
+alias l='ls -lh'
+alias ls='exa --icons'
+alias ll='exa -1 -a --icons'
+alias la='exa -a --icons'
+alias lm='ls -m'
+alias lr='ls -R'
+alias lg='ls -l --group-directories-first'
 
 # cd aliases
 alias ..="cd ../";
