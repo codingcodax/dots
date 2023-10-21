@@ -13,3 +13,6 @@
 [submodule ".oh-my-zsh/custom/plugins/git-trim"]
 	path = .oh-my-zsh/custom/plugins/git-trim
 	url = https://github.com/jasonmccreary/git-trim
+[submodule "custom/wallpapers"]
+	path = custom/wallpapers
+	url = https://github.com/codingcodax/wallpapers
