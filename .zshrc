@@ -5,7 +5,6 @@ export ZSH="$HOME/.oh-my-zsh"
 ZSH_THEME="kosori"
 
 plugins=(
-  # fig
   gh
   git
   git-trim
@@ -20,9 +19,9 @@ source $ZSH/oh-my-zsh.sh
 
 # ls aliases
 alias l='ls -lh'
-alias ls='exa --icons'
-alias ll='exa -1 -a --icons'
-alias la='exa -a --icons'
+alias ls='eza --icons'
+alias ll='eza -1 -a --icons'
+alias la='eza -a --icons'
 alias lm='ls -m'
 alias lr='ls -R'
 alias lg='ls -l --group-directories-first'
@@ -86,13 +85,18 @@ alias cls="clear";
 alias zshrc="nvim ~/.zshrc";
 alias bashrc="nvim ~/.bashrc";
 alias neovim="nvim ~/.config/nvim";
+alias neovimdir="cd ~/.config/nvim";
+alias astro="nvim ~/.config/nvim/lua/user";
+alias astrodir="cd ~/.config/nvim/lua/user";
+alias sshdir="cd ~/.ssh";
 alias topten="history | sort -rn | head";
 alias myip="curl http://ipecho.net/plain; echo";
 alias dirs="dirs -v | head -10";
 alias usage="du -h -d1";
 alias update="source ~/.zshrc";
-alias sshdir="cd ~/.ssh";
 alias runp="lsof -i ";
+alias copy="pbcopy" # macOS => pbcopy | Linux => xclip;
+alias paste="pbpaste"; # macOS => pbpaste | Linux => xclip -o;
 
 # nvim | volta
 
