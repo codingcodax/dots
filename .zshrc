@@ -80,6 +80,7 @@ alias cat="bat";
 alias md="mkdir ";
 alias pg="echo 'Pinging Google' && ping www.google.com";
 alias lz="lazygit";
+alias gt="git-trim";
 alias n="nvim";
 alias cls="clear";
 alias zshrc="nvim ~/.zshrc";
