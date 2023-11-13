@@ -13,3 +13,6 @@
 [submodule "custom/wallpapers"]
 	path = custom/wallpapers
 	url = https://github.com/codingcodax/wallpapers
+[submodule ".config/nvim"]
+	path = .config/nvim
+	url = https://github.com/codingcodax/nvim
