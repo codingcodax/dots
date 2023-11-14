@@ -9,7 +9,7 @@
 | Terminal      | [Kitty](https://sw.kovidgoyal.net/kitty/) / [iTerm 2](https://iterm2.com/)         |
 | Shell         | [Oh My Zsh](https://github.com/tonsky/FiraCode)                  |
 | Prompt        | Kosori                     |
-| Font          | [Fira Code](https://github.com/tonsky/FiraCode)                  |
+| Font          | [Maple Mono](https://github.com/subframe7536/Maple-font)                  |
 | IDE           | [AstroNvim](https://astronvim.com/)                  |
 | Browser       | [Firefox](https://www.mozilla.org/firefox/new/) / [Safari](https://www.apple.com/safari/) / [Arc](https://arc.net/)     |
 | Discord       | [Better Discord](https://betterdiscord.app/)             |
