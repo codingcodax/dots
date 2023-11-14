@@ -7,7 +7,7 @@
 |---------------|----------------------------|
 | OS            | [Archcraft](https://archcraft.io/) / [Mac OS](https://www.apple.com/macos)         |
 | Terminal      | [Kitty](https://sw.kovidgoyal.net/kitty/) / [iTerm 2](https://iterm2.com/)         |
-| Shell         | [Oh My Zsh](https://github.com/tonsky/FiraCode)                  |
+| Shell         | [Oh My Zsh](https://ohmyz.sh/)                  |
 | Prompt        | Kosori                     |
 | Font          | [Maple Mono](https://github.com/subframe7536/Maple-font)                  |
 | IDE           | [AstroNvim](https://astronvim.com/)                  |
