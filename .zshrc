@@ -6,7 +6,6 @@ plugins=(
   gh
   git
   git-trim
-  # iterm2
   last-working-dir
   thefuck
   zsh-autosuggestions
