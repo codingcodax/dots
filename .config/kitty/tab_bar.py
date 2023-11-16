@@ -15,8 +15,8 @@ from kitty.tab_bar import (
 from kitty.utils import color_as_int
 
 opts = get_options()
-icon_fg = as_rgb(color_as_int(opts.color16))
-icon_bg = as_rgb(color_as_int(opts.color8))
+icon_fg = as_rgb(color_as_int(opts.color183))
+icon_bg = as_rgb(color_as_int(opts.color0))
 bat_text_color = as_rgb(color_as_int(opts.color15))
 clock_color = as_rgb(color_as_int(opts.color15))
 date_color = as_rgb(color_as_int(opts.color8))
