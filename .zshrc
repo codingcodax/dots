@@ -101,8 +101,5 @@ alias paste="pbpaste"; # macOS => pbpaste | Linux => xclip -o;
 # pnpm
 # pnpm end
 
-# iTerm2
-# iTerm2 end
-
 # Spicetify
 # Spicetify end
