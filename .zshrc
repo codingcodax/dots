@@ -92,8 +92,8 @@ alias dirs="dirs -v | head -10";
 alias usage="du -h -d1";
 alias update="source ~/.zshrc";
 alias runp="lsof -i ";
-alias copy="pbcopy" # macOS => pbcopy | Linux => xclip;
-alias paste="pbpaste"; # macOS => pbpaste | Linux => xclip -o;
+alias copy="pbcopy"; # macOS => pbcopy | Linux => xclip
+alias paste="pbpaste"; # macOS => pbpaste | Linux => xclip -o
 
 # nvim | volta
 
