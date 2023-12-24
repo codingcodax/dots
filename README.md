@@ -12,5 +12,5 @@
 | Font          | [Maple Mono](https://github.com/subframe7536/Maple-font)                                                                 |  
 | IDE           | [AstroNvim](https://astronvim.com/)                                                                                      |
 | Browser       | [Firefox](https://www.mozilla.org/firefox/new/) / [Safari](https://www.apple.com/safari/) / [Arc](https://arc.net/)      |
-| Discord       | [Better Discord](https://betterdiscord.app/)                                                                             |
+| Discord       | [Vencord](https://vencord.dev/)                                                                             |
 | Spotify       | [Spicetify](https://spicetify.app/)                                                                                      |
