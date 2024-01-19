@@ -1,5 +1,5 @@
 # Promp text information
-PROMPT='%B$FG[183]λ %B$FG[183]%c $(git_prompt_info)%{$reset_color%}$(_git_time_since_commit)$(git_prompt_status)${_return_status}➜ '
+PROMPT='%B$FG[183]λ %B$FG[183]%c $(git_prompt_info)%{$reset_color%}$(_git_time_since_commit)$(git_prompt_status)${_return_status} '
 local _return_status="%{$fg_bold[red]%}%(?..⍉ )%{$reset_color%}"
 
 # Git Status Indicators configuration
