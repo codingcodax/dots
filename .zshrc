@@ -94,6 +94,8 @@ alias update="source ~/.zshrc";
 alias runp="lsof -i ";
 alias copy="pbcopy"; # macOS => pbcopy | Linux => xclip
 alias paste="pbpaste"; # macOS => pbpaste | Linux => xclip -o
+alias bubu="brew update && brew upgrade && brew cleanup";
+# alias bubu="sudo apt update -y && sudo apt upgrade -y && sudo apt autoremove -y && sudo apt autoclean -y && sudo apt clean -y";
 
 # nvim | volta
 
