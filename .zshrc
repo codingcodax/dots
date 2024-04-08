@@ -83,7 +83,6 @@ alias cls="clear";
 alias zshrc="nvim ~/.zshrc";
 alias bashrc="nvim ~/.bashrc";
 alias nvimdir="cd ~/.config/nvim";
-alias astrodir="cd ~/.config/nvim/lua/user";
 alias kittydir="cd ~/.config/kitty";
 alias sshdir="cd ~/.ssh";
 alias topten="history | sort -rn | head";
