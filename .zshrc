@@ -61,7 +61,7 @@ alias pa="pnpm add";
 alias pad="pnpm add -D";
 alias pr="pnpm rm";
 alias flush-pnpm="rm -rf node_modules && pnpm i && echo PNPM is done ✅";
-alias npm-update="pnpm dlx npm-check-updates -i";
+alias pnpm-update="pnpx npm-check-updates -i";
 
 # yarn aliases
 alias yar="yarn run";
