@@ -7,7 +7,6 @@ plugins=(
   git
   git-trim
   last-working-dir
-  thefuck
   zsh-autosuggestions
   zsh-syntax-highlighting
 )
@@ -37,6 +36,7 @@ alias gi="git init";
 alias gfr="git remote update";
 alias gac="git add . && git commit -a -m ";
 alias glog="git log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --branches";
+alias gdm="git diff | pbcopy; open raycast://ai-commands/git-commit-message --background";
 
 # npm aliases
 alias ni="npm install";
@@ -79,11 +79,9 @@ alias pg="echo 'Pinging Google' && ping www.google.com";
 alias lz="lazygit";
 alias gt="git-trim";
 alias n="nvim";
-alias cls="clear";
 alias zshrc="nvim ~/.zshrc";
 alias bashrc="nvim ~/.bashrc";
 alias nvimdir="cd ~/.config/nvim";
-alias kittydir="cd ~/.config/kitty";
 alias sshdir="cd ~/.ssh";
 alias topten="history | sort -rn | head";
 alias myip="curl http://ipecho.net/plain; echo";
@@ -95,11 +93,40 @@ alias copy="pbcopy"; # macOS => pbcopy | Linux => xclip
 alias paste="pbpaste"; # macOS => pbpaste | Linux => xclip -o
 alias bubu="brew update && brew upgrade && brew cleanup";
 # alias bubu="sudo apt update -y && sudo apt upgrade -y && sudo apt autoremove -y && sudo apt autoclean -y && sudo apt clean -y";
+alias spt="spotify_player";
 
-# nvim | volta
+# funtions
+# Get the latest commits since last merge
+function extract_merge_commit_logs() {
+  local current_branch=$(git rev-parse --abbrev-ref HEAD)
+  local latest_merge_commit=$(git log --merges --first-parent $current_branch --pretty=format:'%H' -n 1)
+  local latest_commit=$(git log --pretty=format:%H -n 1 $current_branch)
 
-# pnpm
-# pnpm end
+  if [ -n "$latest_merge_commit" ]; then
+      git log --pretty=format:"%s" $latest_merge_commit..$current_branch
+  else
+      echo "No merge commit found in the current branch."
+  fi
+}
 
-# Spicetify
-# Spicetify end
+# Get the latest commits and changes since last merge
+function extract_merge_commit_logs_with_diff() {
+  local current_branch=$(git rev-parse --abbrev-ref HEAD)
+  local latest_merge_commit=$(git log --merges --first-parent $current_branch --pretty=format:'%H' -n 1)
+  local latest_commit=$(git log --pretty=format:%H -n 1 $current_branch)
+
+  if [ -n "$latest_merge_commit" ]; then
+      git log --pretty=format:%h:%s $latest_merge_commit..$current_branch | while read commit; do
+          hash=$(echo $commit | cut -d: -f1)
+          msg=$(echo $commit | cut -d: -f2-)
+          echo "$msg"
+          git show --pretty="" --name-only $hash
+          git show --pretty="" --color $hash
+      done
+  else
+      echo "No merge commit found in the current branch."
+  fi
+}
+
+# volta
+# volta end
