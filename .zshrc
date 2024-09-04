@@ -94,6 +94,7 @@ alias paste="pbpaste"; # macOS => pbpaste | Linux => xclip -o
 alias bubu="brew update && brew upgrade && brew cleanup";
 # alias bubu="sudo apt update -y && sudo apt upgrade -y && sudo apt autoremove -y && sudo apt autoclean -y && sudo apt clean -y";
 alias spt="spotify_player";
+alias set-title="kitty @ set-tab-title -m 'state:active'";
 
 # funtions
 # Get the latest commits since last merge
