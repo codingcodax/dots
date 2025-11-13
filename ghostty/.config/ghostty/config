@@ -1,0 +1,49 @@
+theme = Catppuccin Mocha
+
+# Font
+font-family = "Maple Mono NF"
+font-style = Regular
+font-size = 12
+
+# Window
+window-theme = ghostty
+confirm-close-surface = false
+resize-overlay = never
+gtk-toolbar-style = flat
+background-opacity = 0.7
+background-blur = true
+unfocused-split-opacity = 1
+
+# Cursor styling
+cursor-style = "block"
+cursor-style-blink = true
+shell-integration-features = no-cursor
+
+# Mouse styling
+mouse-hide-while-typing = true
+
+# Keyboard bindings
+keybind = control+insert=copy_to_clipboard
+keybind = shift+insert=paste_from_clipboard
+keybind = global:alt+f=toggle_quick_terminal
+keybind = alt+v=new_split:right
+keybind = alt+d=new_split:down
+keybind = alt+h=goto_split:left
+keybind = alt+j=goto_split:down
+keybind = alt+k=goto_split:up
+keybind = alt+l=goto_split:right
+# Linux
+keybind = control+r=reload_config
+keybind = ctrl+shift+h=resize_split:left,10
+keybind = ctrl+shift+j=resize_split:down,10
+keybind = ctrl+shift+k=resize_split:up,10
+keybind = ctrl+shift+l=resize_split:right,10
+# Mac
+keybind = cmd+r=reload_config
+keybind = cmd+shift+h=resize_split:left,10
+keybind = cmd+shift+j=resize_split:down,10
+keybind = cmd+shift+k=resize_split:up,10
+keybind = cmd+shift+l=resize_split:right,10
+
+# SSH session terminfo
+shell-integration-features = ssh-env
