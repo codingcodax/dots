@@ -1,4 +1,9 @@
 gui:
+  commitLength:
+    show: true
+  showFileTree: true
+  splitDiff: auto
+
   theme:
     activeBorderColor:
       - "#cba6f7"
@@ -22,3 +27,18 @@ gui:
 
   authorColors:
     "*": "#b4befe"
+
+customCommands:
+  - key: "b"
+    command: "gh browse"
+    context: "files"
+    description: "Open repo in browser"
+  - key: "b"
+    command: 'gh browse "{{.SelectedLocalCommit.Sha}}"'
+    context: "commits"
+    description: "Open commit in browser"
+  - key: "P"
+    command: "git push --no-verify --force-with-lease"
+    context: "global"
+    loadingText: "Pushing..."
+    description: "Force push with --no-verify"
