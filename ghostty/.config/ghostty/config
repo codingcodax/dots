@@ -6,16 +6,14 @@ font-style = Regular
 font-size = 12
 
 # Window
+initial-window = true
 window-theme = ghostty
-confirm-close-surface = false
+window-decoration = none
 gtk-toolbar-style = flat
 background-opacity = 0.7
 background-blur = true
-unfocused-split-opacity = 1
-macos-option-as-alt = true
-macos-titlebar-style = hidden
 quit-after-last-window-closed = true
-initial-window = true
+unfocused-split-opacity = 1
 quick-terminal-position = right
 quick-terminal-size = 50%
 
@@ -23,9 +21,15 @@ quick-terminal-size = 50%
 cursor-style = "block"
 cursor-style-blink = false
 shell-integration-features = no-cursor
+confirm-close-surface = false
 
 # Mouse styling
 mouse-hide-while-typing = true
+
+# Other
+macos-option-as-alt = true
+macos-titlebar-style = hidden
+copy-on-select = true
 
 # Keyboard bindings
 keybind = global:alt+f=toggle_quick_terminal
