@@ -1,5 +1,6 @@
 [tools]
 bat = "latest"
+bottom = "latest"
 btop = "latest"
 bun = "latest"
 direnv = "latest"
