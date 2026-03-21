@@ -1,7 +1,6 @@
 {
   "$schema": "https://opencode.ai/config.json",
-  "theme": "catppuccin",
-  "model": "minimax-coding-plan/MiniMax-M2.5",
+  "model": "minimax-coding-plan/MiniMax-M2.7",
   "plugin": ["opencode-handoff"],
   "mcp": {
     "context7": {
@@ -9,7 +8,7 @@
       "url": "https://mcp.context7.com/mcp",
       "headers": {
         "CONTEXT7_API_KEY": "CONTEXT7_API_KEY"
-      },
+      }
     },
     "gh_grep": {
       "type": "remote",
