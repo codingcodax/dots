@@ -1,0 +1,2 @@
+[commit.generation]
+command = "opencode run -m google/gemini-3.5-flash --variant fast"
