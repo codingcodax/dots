@@ -1,11 +1,9 @@
 [tools]
 bat = "latest"
 bottom = "latest"
-btop = "latest"
 bun = "latest"
 direnv = "latest"
-# docker-cli = "latest"
-docker-compose = "latest"
+docker-compose = { version = "latest", os = ["linux"] }
 duf = "latest"
 eza = "latest"
 fd = "latest"
@@ -15,11 +13,11 @@ lazydocker = "latest"
 lazygit = "latest"
 ni = "latest"
 node = "latest"
-opencode = "latest"
+opencode = { version = "latest", os = ["linux"] }
 pandoc = "latest"
 ripgrep = "latest"
 rust = "latest"
-tree-sitter = "latest"
+tree-sitter = { version = "latest", os = ["linux"] }
 yazi = "latest"
 yq = "latest"
 zoxide = "latest"
