@@ -2,7 +2,6 @@
 bat = "latest"
 bottom = "latest"
 bun = "latest"
-codex = { version = "latest", os = ["linux"] }
 direnv = "latest"
 docker-compose = { version = "latest", os = ["linux"] }
 duf = "latest"
