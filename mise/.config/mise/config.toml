@@ -8,6 +8,7 @@ duf = "latest"
 eza = "latest"
 fd = "latest"
 fzf = "latest"
+herdr = { version = "latest", os = ["linux"] }
 jq = "latest"
 lazydocker = "latest"
 lazygit = "latest"
