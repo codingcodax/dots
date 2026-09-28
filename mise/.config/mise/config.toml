@@ -17,6 +17,7 @@ opencode = { version = "latest", os = ["linux"] }
 pandoc = "latest"
 ripgrep = "latest"
 rust = "latest"
+supabase = "latest"
 tree-sitter = { version = "latest", os = ["linux"] }
 yazi = "latest"
 yq = "latest"
