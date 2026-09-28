@@ -2,14 +2,25 @@
 description: Research agent using Perplexity Sonar Pro for real-time web search.
 mode: subagent
 model: perplexity/sonar-pro
-temperature: 0.8
-tools:
-  read: true
-  write: false
-  edit: false
-  bash: false
-  glob: true
-  grep: true
+request:
+  body:
+    temperature: 0.8
+permissions:
+  - action: read
+    resource: "*"
+    effect: allow
+  - action: edit
+    resource: "*"
+    effect: deny
+  - action: shell
+    resource: "*"
+    effect: deny
+  - action: glob
+    resource: "*"
+    effect: allow
+  - action: grep
+    resource: "*"
+    effect: allow
 ---
 
 You are a specialized research agent with real-time web access via Perplexity Sonar Pro.
