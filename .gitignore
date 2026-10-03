@@ -9,3 +9,12 @@ opencode/.config/opencode/package-lock.json
 
 # worktrunk
 worktrunk/.config/worktrunk/config.toml.lock
+
+# herdr
+herdr-server.log
+herdr-client.log
+.plugins.lock
+herdr.sock.agent
+release-notes.json
+session-snapshots/
+session.json
