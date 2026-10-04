@@ -1,7 +1,5 @@
-# zsh secrets
+# zsh
 zsh/.config/zsh/secrets.zsh
-
-# zsh generated completion cache
 zcompdump*
 .zcompdump*
 
@@ -13,15 +11,17 @@ nvim/.config/nvim/lazy-lock.json
 
 # opencode
 opencode/.config/opencode/package-lock.json
+opencode/.config/opencode/cli.json
+opencode/.config/opencode/service.json
 
 # worktrunk
 worktrunk/.config/worktrunk/config.toml.lock
 
 # herdr
-herdr-server.log
-herdr-client.log
-.plugins.lock
-herdr.sock.agent
-release-notes.json
-session-snapshots/
-session.json
+herdr/.config/herdr/herdr-server.log
+herdr/.config/herdr/herdr-client.log
+herdr/.config/herdr/.plugins.lock
+herdr/.config/herdr/herdr.sock.agent
+herdr/.config/herdr/release-notes.json
+herdr/.config/herdr/session-snapshots/
+herdr/.config/herdr/session.json
