@@ -2,6 +2,7 @@
 bat = "latest"
 bottom = "latest"
 bun = "latest"
+cloudflared = "latest"
 direnv = "latest"
 docker-compose = { version = "latest", os = ["linux"] }
 duf = "latest"
@@ -14,7 +15,6 @@ lazydocker = "latest"
 lazygit = "latest"
 ni = "latest"
 node = "latest"
-opencode = { version = "latest", os = ["linux"] }
 pandoc = "latest"
 ripgrep = "latest"
 rust = "latest"
